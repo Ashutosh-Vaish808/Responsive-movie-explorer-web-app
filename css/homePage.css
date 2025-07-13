@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(19, 18, 18);
+    position: relative;
+}
+.heading{
+    color: rgb(134, 133, 133);
+    margin-left: 30px;
+    font-size: 45px;
+}
+.poster{
+    max-height: 320px;
+    max-width: 210px;
+    min-width: 210px;
+    min-height: 320px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 12px;
+}
+.movie{
+    background-color:rgb(19, 18, 18);
+    border: solid;
+    border-color:rgb(85, 85, 85);
+    border-radius: 12px;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 250px;
+    padding-bottom: 10px;
+    margin:8px;
+    margin-right: 8px;
+}
+.title{
+    font-family: Arial;
+    font-weight: bolder;
+    color: rgb(99, 98, 98);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-height: 25px;
+}
+.rating{
+    color: rgb(85, 85, 85);
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.release_date{
+    color: rgb(85, 85, 85);
+    text-align: left;
+    font-weight: bold;
+}
+.fakeButton{
+    background-color:rgb(11, 192, 11);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.mouse_over{
+    background-color:rgb(23, 119, 23);
+    border-color: rgb(23, 119, 23);
+    .title{
+        color: white;
+    }
+    .rating{
+        color: white;
+    }
+    .release_date{
+        color: white;
+    }
+    .fakeButton{
+        background-color:white;
+    }
+    .poster{
+        border: solid;
+        border-color: black;
+    }
+}
+.tocentre{
+    display: flex;
+    justify-content: center;
+
+}
+.searchbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: rgb(134, 133, 133);
+    padding: 10px;
+   
+    border-radius: 30px;
+    width: max-content;
+    margin-left: 830px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-height: 50px;
+}
+.search_input{
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 400px;
+    font-size: 20px;
+}
+input::placeholder{
+    color: black;
+    font-size:20px;
+}
+.search_button{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    border:none;
+    outline:none;
+    filter: grayscale(100%);
+    background-color: transparent;
+}
+.page_buttons{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: max-content;
+    height: 40px;
+    align-items: center;
+}
+.previous_page{
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+.next_page{
+    border:none;
+    outline: none;
+    margin-left: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+.page_num{
+    color: rgb(85, 85, 85);
+    font-weight: bolder;
+    font-size: 25px;
+}
