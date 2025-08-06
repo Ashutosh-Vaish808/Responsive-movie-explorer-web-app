@@ -138,3 +138,4 @@ async function searchMovie(text:string){
     catch(error){console.log(error,"errior")}
 }
 
+
